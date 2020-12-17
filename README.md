@@ -1,6 +1,7 @@
 
 # 🚀PHP Serial Number Generator
-[![GitHub license](https://img.shields.io/github/license/irfaardy/encrypt-file-laravel?style=flat-square)](https://github.com/irfaardy/encrypt-file-laravel/blob/master/LICENSE)  [![Support me](https://img.shields.io/badge/Support-Buy%20me%20a%20coffee-yellow.svg?style=flat-square)](https://www.buymeacoffee.com/OBaAofN) [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S52P7SN)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/irfaardy/php-sn-generator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/irfaardy/php-sn-generator/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/irfaardy/php-sn-generator/badges/build.png?b=master)](https://scrutinizer-ci.com/g/irfaardy/php-sn-generator/build-status/master) [![GitHub license](https://img.shields.io/github/license/irfaardy/encrypt-file-laravel?style=flat-square)](https://github.com/irfaardy/encrypt-file-laravel/blob/master/LICENSE)  [![Support me](https://img.shields.io/badge/Support-Buy%20me%20a%20coffee-yellow.svg?style=flat-square)](https://www.buymeacoffee.com/OBaAofN)<br> 
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S52P7SN)
 
 <p>The Simple PHP Serial Number Generator.<p>
 <h3>🛠️ Installation with Composer </h3>
@@ -70,13 +71,13 @@ vendor/irfa/php-sn-generator/config/irfa/serial_number.php
     | seperator : striped segment for serial (set null if you do not wish to use seperator)
     |
     */
-		'length'			=> 4,
+		'length'	=> 4,
 
-		'segment'			=> 4,
+		'segment'	=> 4,
 	
-	    'seperator'         => "-",
+	    	'seperator'     => "-",
 	
-	    'charset'           => "0123456789ABCDEFGHIJKLMNPQRSTUWXYZ",
+	    	'charset'       => "0123456789ABCDEFGHIJKLMNPQRSTUWXYZ",
 
 ];
 ```
@@ -125,10 +126,11 @@ echo $sn->generate();
 
 ```php
 //Laravel
-SN::setConfig([	'length' => 5,
-				'segment' => '4',
-				'seperator' => '-',
-				'charset' => "123456789ABCDEFGH"])
+SN::setConfig([	
+		'length' => 5,
+		'segment' => '4',
+		'seperator' => '-',
+		'charset' => "123456789ABCDEFGH"])
 	->generate();
 	
 //PHP Native
