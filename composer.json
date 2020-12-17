@@ -1,0 +1,26 @@
+{
+    "name": "irfa/php-sn-generator",
+    "description": "\"Serial number generator for web aplication\"",
+    "type": "package",
+    "license": "MIT",
+    "version": "v1.0",
+    "homepage": "https://github.com/irfaardy/php-sn-generator",
+    "keywords": ["laravel","randomized","security", "serial number","serial number generator", "decrypt", "secure","upload file"],
+    "authors": [
+        {
+            "name": "Irfa A",
+            "email": "irfa.backend@protonmail.com",
+            "homepage": "https://github.com/irfaardy",
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "hidehalo/nanoid-php": "1.1.8",
+        "ext-json": "*",
+    },
+    "autoload": {
+            "psr-4": {
+                "Irfa\\SerialNumber\\": "src/"
+            }
+    }
+}
