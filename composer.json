@@ -16,7 +16,7 @@
     "require": {
         "php": "^7.2",
         "hidehalo/nanoid-php": "1.1.8",
-        "ext-json": "*",
+        "ext-json": "*"
     },
     "autoload": {
             "psr-4": {
