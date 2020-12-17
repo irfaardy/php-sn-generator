@@ -55,7 +55,7 @@ config/irfa/serial_number.php
 <h4>Config non-Laravel or PHP Native</h4>
 
 ```bash
-vendor/irfa/php-sn-generator/config/irfa/serial_number.php
+vendor/irfa/php-sn-generator/config/config.php
 ```
 
 ```php
