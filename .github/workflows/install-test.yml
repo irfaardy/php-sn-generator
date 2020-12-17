@@ -15,5 +15,5 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Test Install
-      run: irfa/php-sn-generator
+      run: composer require irfa/php-sn-generator
 
