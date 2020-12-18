@@ -161,7 +161,7 @@ if you found bug or error, please post here https://github.com/irfaardy/php-sn-g
 ***
 ## Bagaimana cara berkontribusi?
 
-1. Lakukan fork di (<https://github.com/php-sn-generator/raja-ongkir/fork>)
+1. Lakukan fork di (<https://github.com/irfaardy/php-sn-generator/fork>)
 2. Commit perubahan yang anda lakukan (`git commit -m 'Fitur Baru'`)
 3. Push ke branch master (`git push origin branch-kamu)
 4. Buat Pull Request baru `branch-kamu -> master`
