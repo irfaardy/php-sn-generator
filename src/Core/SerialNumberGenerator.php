@@ -5,7 +5,6 @@
 namespace Irfa\SerialNumber\Core;
 
 use Hidehalo\Nanoid\Client;
-use Hidehalo\Nanoid\GeneratorInterface;
 
 class SerialNumberGenerator extends ConfigInit
 {
