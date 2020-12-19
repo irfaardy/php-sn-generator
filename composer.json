@@ -3,7 +3,7 @@
     "description": "\"Serial number generator for web aplication\"",
     "type": "package",
     "license": "MIT",
-    "version": "v1.0",
+    "version": "v1.1",
     "homepage": "https://github.com/irfaardy/php-sn-generator",
     "keywords": ["laravel","randomized","security", "serial number","serial number generator", "decrypt", "secure","upload file"],
     "authors": [
