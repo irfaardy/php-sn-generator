@@ -1,6 +1,6 @@
 <?php
 /* 
-	Author: Irfa Ardiansyah <irfa.backend@protonmail.com>
+    Author: Irfa Ardiansyah <irfa.backend@protonmail.com>
 */
 namespace Irfa\SerialNumber\Core;
 
@@ -17,9 +17,9 @@ class SerialNumberGenerator extends ConfigInit
 
     protected function generatingSN()
     {
-        for($i=1;$i<=$this->segment;$i++)
+        for($i=1;$i<=intval($this->segment);$i++)
         {
-            $this->sn .= $this->sn()->formattedId($this->charset,$this->length).$this->seperator;
+            $this->sn .= $this->sn()->formattedId($this->charset,intval($this->length)).$this->seperator;
         }
 
         $sn = $this->sn;
