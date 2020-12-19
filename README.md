@@ -3,6 +3,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/3f4b5d10a870b2301715/maintainability)](https://codeclimate.com/github/irfaardy/php-sn-generator/maintainability) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/irfaardy/php-sn-generator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/irfaardy/php-sn-generator/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/irfaardy/php-sn-generator/badges/build.png?b=master)](https://scrutinizer-ci.com/g/irfaardy/php-sn-generator/build-status/master) [![Latest Stable Version](https://poser.pugx.org/irfa/php-sn-generator/v)](//packagist.org/packages/irfa/php-sn-generator)  [![GitHub license](https://img.shields.io/github/license/irfaardy/encrypt-file-laravel?style=flat-square)](https://github.com/irfaardy/encrypt-file-laravel/blob/master/LICENSE)  [![Support me](https://img.shields.io/badge/Support-Buy%20me%20a%20coffee-yellow.svg?style=flat-square)](https://www.buymeacoffee.com/OBaAofN)<br> 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S52P7SN)
 
+Demo https://phpsngenerator.herokuapp.com/
 <p>Customable Serial Number Generator for PHP.<p>
 <h3>🛠️ Installation with Composer </h3>
 
