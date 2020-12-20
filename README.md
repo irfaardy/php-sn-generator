@@ -119,7 +119,7 @@ use Irfa\SerialNumber\Func\SerialNumber;
 
 $sn = new SerialNumber();
 
-echo $sn->generate();
+echo $sn->generate(); //result : TP8K-XU63-9YN3-SMSF
    
 ```
 
@@ -130,7 +130,7 @@ echo $sn->generate();
 //Laravel
 SN::setConfig([	
 		'length' => 5,
-		'segment' => '4',
+		'segment' => 4,
 		'seperator' => '-',
 		'charset' => "123456789ABCDEFGH"])
 	->generate();
@@ -140,7 +140,7 @@ $sn = new SerialNumber();
 
 echo $sn->setConfig([	
                         'length' => 5,
-                        'segment' => '4',
+                        'segment' => 4,
                         'seperator' => '-',
                         'charset' => "123456789ABCDEFGH"
                     ])
