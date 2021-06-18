@@ -6,10 +6,12 @@
 Demo https://phpsngenerator.herokuapp.com/
 <p>Customable Serial Number Generator for PHP.<p>
 <p>Where can this be used?
-- Serial number on the application
-- Security Token
-- Reset Password link token
-- API Key
+<ol>
+	<li>Serial number on the application</li>
+	<li>Security Token</li>
+	<li>Reset Password link token</li>
+	<li>API Key</li>
+</ol>
 <p>
 <h3>🛠️ Installation with Composer </h3>
 
