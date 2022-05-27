@@ -9,6 +9,8 @@ Demo https://phpsngenerator.herokuapp.com/
 <ol>
 	<li>Serial number on the application</li>
 	<li>Security Token</li>
+	<li>Vouchers Serial</li>
+	<li>Activation Apps Serial</li>
 	<li>Reset Password link token</li>
 	<li>API Key</li>
 </ol>
