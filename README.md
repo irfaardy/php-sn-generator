@@ -13,6 +13,7 @@ Demo https://phpsngenerator.herokuapp.com/
 	<li>Activation Apps Serial</li>
 	<li>Reset Password link token</li>
 	<li>API Key</li>
+	<li>etc.</li>
 </ol>
 <p>
 <h3>🛠️ Installation with Composer </h3>
