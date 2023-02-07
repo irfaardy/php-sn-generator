@@ -4,8 +4,8 @@
 [![Support me](https://img.shields.io/badge/Support-Buy%20me%20a%20coffee-yellow.svg?style=flat-square)](https://www.buymeacoffee.com/irfaardy) [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S52P7SN)
 [![Packagist Downloads](https://img.shields.io/packagist/dm/irfa/php-sn-generator.svg?label=Downloads)](https://packagist.org/packages/irfa/php-sn-generator)
 
-Demo https://phpsngenerator.herokuapp.com/
-<p>Customable Serial Number Generator for PHP.<p>
+Demo https://phpsngenerator.herokuapp.com/ or demo source code https://github.com/irfaardy/php-sn-generator-demo
+<p>Customable Serial Number Generator for PHP.<p> 
 <p>Where can this be used?
 <ol>
 	<li>Serial number on the application</li>
