@@ -22,5 +22,12 @@
             "psr-4": {
                 "Irfa\\SerialNumber\\": "src/"
             }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Irfa\\SerialNumber\\SerialNumberGeneratorSeviceProvider::class"
+            ]
+        }
     }
 }
